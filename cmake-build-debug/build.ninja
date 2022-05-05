@@ -74,7 +74,7 @@ build cmake_object_order_depends_target_CS2013_Project: phony || CMakeFiles/CS20
 
 build CMakeFiles/CS2013_Project.dir/main.cpp.o: CXX_COMPILER__CS2013_Project_Debug /Users/juandiegocastropadilla/Desktop/CS2013-Project/main.cpp || cmake_object_order_depends_target_CS2013_Project
   DEP_FILE = CMakeFiles/CS2013_Project.dir/main.cpp.o.d
-  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
   INCLUDES = -isystem /usr/local/include
   OBJECT_DIR = CMakeFiles/CS2013_Project.dir
   OBJECT_FILE_DIR = CMakeFiles/CS2013_Project.dir
