@@ -15,7 +15,7 @@ namespace myWindow {
 
 int main() {
 
-    sf::RenderWindow window(sf::VideoMode(myWindow::modeWidth,myWindow::modeHeight),myWindow::title);
+    sf::RenderWindow window(sf::VideoMode(myWindow::modeWidth, myWindow::modeHeight), myWindow::title);
     window.setFramerateLimit(60);
 
     while (window.isOpen()){
