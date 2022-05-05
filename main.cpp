@@ -10,13 +10,20 @@
 namespace myWindow {
     const char* title = "Project";
     constexpr unsigned int modeWidth = 800;
-    constexpr unsigned int modeHeight = 600;
+    constexpr unsigned int modeHeight = 800;
+}
+
+namespace shapeSizes{
+    constexpr float radius = 200;
 }
 
 int main() {
 
     sf::RenderWindow window(sf::VideoMode(myWindow::modeWidth, myWindow::modeHeight), myWindow::title);
     window.setFramerateLimit(60);
+
+    sf::CircleShape shape(shapeSizes::radius);
+    shape.setFillColor(sf::Color::Cyan);
 
     while (window.isOpen()){
 
@@ -38,12 +45,12 @@ int main() {
         }
 
         // Activate the window for OpenGL rendering
-        window.setActive();
+        window.clear();
 
         // OpenGL drawing commands go here...
+        window.draw(shape);
 
         // End the current frame and display its contents on screen
-        window.clear();
         window.display();
     }
 
