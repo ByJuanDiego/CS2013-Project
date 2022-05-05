@@ -138,6 +138,13 @@
 			[
 				0
 			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				1
+			]
 		}
 	],
 	"sources" : 
@@ -145,8 +152,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "src/main.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "img/wood.jpg",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

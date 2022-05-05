@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.21)
 project(CS2013_Project)
 
 set(CMAKE_CXX_STANDARD 17)
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES src/main.cpp img/wood.jpg)
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 
