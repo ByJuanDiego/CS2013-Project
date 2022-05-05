@@ -9,8 +9,8 @@
 
 namespace myWindow {
     const char* title = "Project";
-    constexpr int modeWidth = 800;
-    constexpr int modeHeight = 600;
+    constexpr unsigned int modeWidth = 800;
+    constexpr unsigned int modeHeight = 600;
 }
 
 int main() {
