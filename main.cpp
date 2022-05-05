@@ -44,10 +44,10 @@ int main() {
             }
         }
 
-        // Activate the window for OpenGL rendering
+        // Clear Window
         window.clear();
 
-        // OpenGL drawing commands go here...
+        // Draw Shapes
         window.draw(shape);
 
         // End the current frame and display its contents on screen
