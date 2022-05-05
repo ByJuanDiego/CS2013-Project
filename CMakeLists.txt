@@ -3,20 +3,20 @@ project(CS2013_Project)
 
 set(CMAKE_CXX_STANDARD 17)
 set(SOURCE_FILES src/main.cpp img/wood.jpg)
-
-add_executable(${PROJECT_NAME} ${SOURCE_FILES})
+add_executable(CS2013_Project ${SOURCE_FILES})
 
 if (APPLE)
 
-    message("MacOS detected")
-    include_directories(/usr/local/include)
-
     find_package(SFML 2.5.1 COMPONENTS system window graphics network audio REQUIRED)
-    target_link_libraries(${PROJECT_NAME} sfml-system sfml-window sfml-graphics sfml-audio sfml-network)
+
+    if(SFML_FOUND)
+        message("SFML FOUND")
+        include_directories(${SFML_INCLUDE_DIR})
+        target_link_libraries(CS2013_Project sfml-system sfml-window sfml-graphics sfml-audio sfml-network)
+    endif()
 
 elseif(WIN32)
 
-    message("Windows 32 detected")
     set(SFML_STATIC_LIBRARIES TRUE)
     set(SFML_DIR C:/SFML/lib/cmake/SFML)
 
