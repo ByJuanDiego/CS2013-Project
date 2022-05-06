@@ -5,7 +5,7 @@
 #ifndef CS2013_PROJECT_DEFINITIONS_H
 #define CS2013_PROJECT_DEFINITIONS_H
 
-// C++ Standard Libraries
+//C++ Standard Libraries {{{1
 #include <string>
 #include <iostream>
 #include <fstream>
@@ -19,14 +19,15 @@
 #include <set>
 #include <functional>
 
-// Third-party library
+//Third-party Libraries {{{1
 #include <SFML/Graphics.hpp>
 
+//Namespaces {{{1
 namespace Type{
     typedef const char* str;
     typedef unsigned int int_u;
 }
-
+//Structs {{{1
 struct myWindow {
     constexpr inline static Type::str title = "SFML Prog3 Project";
     constexpr inline static Type::int_u modeWidth = 600;
