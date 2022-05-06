@@ -7,7 +7,9 @@
 
 #include "definitions.h"
 class A {
-
+public:
+    A();
+    ~A();
 };
 
 
