@@ -24,10 +24,7 @@ int main(){
     window.create(sf::VideoMode(myWindow::modeWidth, myWindow::modeHeight), myWindow::title);
 
     sf::Texture texture;
-    texture.loadFromFile("img/wood.jpg");
-
-    sf::CircleShape circleShape(shapeSizes::radius);
-    circleShape.setFillColor(sf::Color::Blue);
+    texture.loadFromFile("images/wood.jpg");
 
     sf::Sprite sprite(texture);
     sprite.setScale(1.0f, 1.0f);
@@ -49,7 +46,6 @@ int main(){
 
         // Draw Sprites
         window.draw(sprite);
-        window.draw(circleShape);
 
         // Finally we display and put forth our graphics scene
         window.display();
