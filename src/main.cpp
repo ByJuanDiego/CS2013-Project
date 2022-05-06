@@ -7,6 +7,7 @@
 int main(){
 
     sf::RenderWindow window (sf::VideoMode(myWindow::modeWidth,myWindow::modeHeight),myWindow::title);
+    window.setFramerateLimit(60);
 
     // Load a font, and setup a test 'text' for us
     sf::Font font;
@@ -23,15 +24,8 @@ int main(){
 
     float xPosition = 0.0f;
 
-    sf::Clock clock;
-    window.setFramerateLimit(60);
     // Main application loop
     while (window.isOpen()){
-        // Compute the frame rate
-        float currentTime = clock.restart().asSeconds();
-        float fps = 1.0f / (currentTime);
-
-        std::cout << "fps: " << fps << std::endl;
 
         sf::Event event {};
         // Handle events
