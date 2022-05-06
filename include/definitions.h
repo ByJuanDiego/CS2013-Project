@@ -22,10 +22,6 @@
 // Third-party library
 #include <SFML/Graphics.hpp>
 
-// Own header files
-#include "definitions.h"
-
-
 namespace Type{
     typedef const char* str;
     typedef unsigned int int_u;

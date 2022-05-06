@@ -1,8 +1,8 @@
 // On MacOS compile with:
-// clang++ -std=c++17 src/main.cpp -L/usr/local/lib/ -o prog -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+// clang++  clang++ -std=c++17 src/main.cpp -L/usr/local/lib/ -o prog -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio && mv prog bin/
 // ./prog
 
-#include "definitions.h"
+#include "../include/A.h"
 
 int main(){
 

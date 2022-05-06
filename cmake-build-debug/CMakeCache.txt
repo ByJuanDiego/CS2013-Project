@@ -219,15 +219,6 @@ SFML_DIR:PATH=/usr/local/lib/cmake/SFML
 //Path to a file.
 SFML_DOC_DIR:PATH=SFML_DOC_DIR-NOTFOUND
 
-//Value Computed by CMake
-WorldGenerator_BINARY_DIR:STATIC=/Users/juandiegocastropadilla/Desktop/CS2013-Project/cmake-build-debug
-
-//Value Computed by CMake
-WorldGenerator_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-WorldGenerator_SOURCE_DIR:STATIC=/Users/juandiegocastropadilla/Desktop/CS2013-Project
-
 
 ########################
 # INTERNAL cache entries
