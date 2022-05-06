@@ -27,6 +27,7 @@ namespace Type{
     typedef const char* str;
     typedef unsigned int int_u;
 }
+
 //Structs {{{1
 struct myWindow {
     constexpr inline static Type::str title = "SFML Prog3 Project";
