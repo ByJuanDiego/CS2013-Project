@@ -5,12 +5,30 @@
 #ifndef CS2013_PROJECT_DEFINITIONS_H
 #define CS2013_PROJECT_DEFINITIONS_H
 
+// C++ Standard Libraries
+#include <string>
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <list>
+#include <deque>
+#include <array>
+#include <algorithm>
+#include <map>
+#include <cmath>
+#include <set>
+#include <functional>
+
+// Third-party library
+#include <SFML/Graphics.hpp>
+
+// Own header files
+#include "definitions.h"
+
 
 namespace Type{
     typedef const char* str;
     typedef unsigned int int_u;
-    typedef short int int_s;
-    typedef long int int_l;
 }
 
 struct myWindow {

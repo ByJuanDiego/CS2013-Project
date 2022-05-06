@@ -2,7 +2,7 @@
 // clang++ -std=c++17 src/main.cpp -L/usr/local/lib/ -o prog -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 // ./prog
 
-#include "libraries.h"
+#include "definitions.h"
 
 int main(){
 

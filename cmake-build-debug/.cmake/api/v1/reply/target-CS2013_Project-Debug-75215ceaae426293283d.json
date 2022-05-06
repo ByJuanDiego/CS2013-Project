@@ -131,8 +131,7 @@
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				1,
-				2
+				1
 			]
 		}
 	],
@@ -147,11 +146,6 @@
 		{
 			"backtrace" : 1,
 			"path" : "src/definitions.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "src/libraries.h",
 			"sourceGroupIndex" : 1
 		}
 	],
