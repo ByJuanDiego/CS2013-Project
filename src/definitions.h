@@ -32,9 +32,9 @@ namespace Type{
 }
 
 struct myWindow {
-    constexpr inline static Type::str title = "My Project";
-    constexpr inline static Type::int_u modeWidth = 320;
-    constexpr inline static Type::int_u modeHeight = 319;
+    constexpr inline static Type::str title = "SFML Prog3 Project";
+    constexpr inline static Type::int_u modeWidth = 600;
+    constexpr inline static Type::int_u modeHeight = 600;
 };
 
 
