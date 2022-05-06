@@ -2,21 +2,7 @@
 // clang++ -std=c++17 src/main.cpp -L/usr/local/lib/ -o prog -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 // ./prog
 
-// C++ Standard Libraries
-#include <iostream>
-
-// Third-party library
-#include <SFML/Graphics.hpp>
-
-namespace myWindow {
-    const char* title = "Project";
-    constexpr unsigned int modeWidth = 320;
-    constexpr unsigned int modeHeight = 319;
-}
-
-namespace shapeSizes{
-    constexpr float radius = 50;
-}
+#include "libraries.h"
 
 int main(){
 

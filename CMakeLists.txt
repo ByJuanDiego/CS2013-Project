@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.21)
 project(CS2013_Project)
 
 set(CMAKE_CXX_STANDARD 17)
-set(SOURCE_FILES src/main.cpp)
+set(SOURCE_FILES src/main.cpp src/definitions.h src/libraries.h)
 add_executable(CS2013_Project ${SOURCE_FILES})
 
 if (APPLE)
