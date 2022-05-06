@@ -6,8 +6,7 @@
 
 int main(){
 
-    sf::RenderWindow window;
-    window.create(sf::VideoMode(myWindow::modeWidth, myWindow::modeHeight), myWindow::title);
+    sf::RenderWindow window (sf::VideoMode(myWindow::modeWidth,myWindow::modeHeight),myWindow::title);
 
     sf::Texture texture;
     texture.loadFromFile("images/wood.jpg");
