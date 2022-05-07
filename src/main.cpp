@@ -1,6 +1,5 @@
 // On MacOS compile with:
-// clang++  clang++ -std=c++17 src/main.cpp -L/usr/local/lib/ -o prog -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio && mv prog bin/
-// ./prog
+//  clang++ -std=c++17 src/main.cpp src/Game.cpp src/Board.cpp src/AI.cpp -L/usr/local/lib/ -o prog -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio && mv prog bin/
 
 #include "Game.h"
 
