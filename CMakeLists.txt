@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(SOURCE_FILES src/main.cpp src/definitions.h)
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 
-if (APPLE)
+if (APPLE OR UNIX)
 
     find_package(SFML 2.5.1 COMPONENTS system window graphics network audio REQUIRED)
 
