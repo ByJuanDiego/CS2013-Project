@@ -12,7 +12,7 @@ if (APPLE OR UNIX)
     if(SFML_FOUND)
         message("SFML FOUND")
         include_directories(${SFML_INCLUDE_DIR})
-        target_link_libraries(CS2013_Project sfml-system sfml-window sfml-graphics sfml-audio)
+        target_link_libraries(${PROJECT_NAME}  sfml-system sfml-window sfml-graphics sfml-audio)
     endif()
 
 elseif(WIN32)

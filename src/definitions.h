@@ -12,12 +12,16 @@
 #include <vector>
 #include <list>
 #include <deque>
+#include <queue>
 #include <array>
 #include <algorithm>
 #include <map>
 #include <cmath>
 #include <set>
 #include <functional>
+#include <ctime>
+#include <cstdlib>
+#include <utility>
 
 //Third-party Libraries {{{1
 #include <SFML/Graphics.hpp>
