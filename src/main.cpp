@@ -4,9 +4,9 @@
 #include "Game.h"
 
 int main(){
+    std::srand(std::time(nullptr));
     AI gameAI;
     Game hexGame(gameAI);
-    std::srand(std::time(nullptr));
     hexGame.play();
     return 0;
 }
