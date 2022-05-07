@@ -79,6 +79,27 @@ build CMakeFiles/CS2013_Project.dir/src/main.cpp.o: CXX_COMPILER__CS2013_Project
   OBJECT_DIR = CMakeFiles/CS2013_Project.dir
   OBJECT_FILE_DIR = CMakeFiles/CS2013_Project.dir/src
 
+build CMakeFiles/CS2013_Project.dir/src/Board.cpp.o: CXX_COMPILER__CS2013_Project_Debug /Users/juandiegocastropadilla/Desktop/CS2013-Project/src/Board.cpp || cmake_object_order_depends_target_CS2013_Project
+  DEP_FILE = CMakeFiles/CS2013_Project.dir/src/Board.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  INCLUDES = -isystem /usr/local/include
+  OBJECT_DIR = CMakeFiles/CS2013_Project.dir
+  OBJECT_FILE_DIR = CMakeFiles/CS2013_Project.dir/src
+
+build CMakeFiles/CS2013_Project.dir/src/AI.cpp.o: CXX_COMPILER__CS2013_Project_Debug /Users/juandiegocastropadilla/Desktop/CS2013-Project/src/AI.cpp || cmake_object_order_depends_target_CS2013_Project
+  DEP_FILE = CMakeFiles/CS2013_Project.dir/src/AI.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  INCLUDES = -isystem /usr/local/include
+  OBJECT_DIR = CMakeFiles/CS2013_Project.dir
+  OBJECT_FILE_DIR = CMakeFiles/CS2013_Project.dir/src
+
+build CMakeFiles/CS2013_Project.dir/src/Game.cpp.o: CXX_COMPILER__CS2013_Project_Debug /Users/juandiegocastropadilla/Desktop/CS2013-Project/src/Game.cpp || cmake_object_order_depends_target_CS2013_Project
+  DEP_FILE = CMakeFiles/CS2013_Project.dir/src/Game.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  INCLUDES = -isystem /usr/local/include
+  OBJECT_DIR = CMakeFiles/CS2013_Project.dir
+  OBJECT_FILE_DIR = CMakeFiles/CS2013_Project.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CS2013_Project
@@ -87,7 +108,7 @@ build CMakeFiles/CS2013_Project.dir/src/main.cpp.o: CXX_COMPILER__CS2013_Project
 #############################################
 # Link the executable CS2013_Project
 
-build CS2013_Project: CXX_EXECUTABLE_LINKER__CS2013_Project_Debug CMakeFiles/CS2013_Project.dir/src/main.cpp.o | /usr/local/lib/libsfml-graphics.2.5.1.dylib /usr/local/lib/libsfml-audio.2.5.1.dylib /usr/local/lib/libsfml-window.2.5.1.dylib /usr/local/lib/libsfml-system.2.5.1.dylib
+build CS2013_Project: CXX_EXECUTABLE_LINKER__CS2013_Project_Debug CMakeFiles/CS2013_Project.dir/src/main.cpp.o CMakeFiles/CS2013_Project.dir/src/Board.cpp.o CMakeFiles/CS2013_Project.dir/src/AI.cpp.o CMakeFiles/CS2013_Project.dir/src/Game.cpp.o | /usr/local/lib/libsfml-graphics.2.5.1.dylib /usr/local/lib/libsfml-audio.2.5.1.dylib /usr/local/lib/libsfml-window.2.5.1.dylib /usr/local/lib/libsfml-system.2.5.1.dylib
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  /usr/local/lib/libsfml-graphics.2.5.1.dylib  /usr/local/lib/libsfml-audio.2.5.1.dylib  /usr/local/lib/libsfml-window.2.5.1.dylib  /usr/local/lib/libsfml-system.2.5.1.dylib
   OBJECT_DIR = CMakeFiles/CS2013_Project.dir

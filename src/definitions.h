@@ -27,7 +27,7 @@
 #include <SFML/Graphics.hpp>
 
 //Namespaces {{{1
-namespace type{
+namespace type {
     typedef const char* str;
     typedef unsigned int int_u;
 }
@@ -39,5 +39,9 @@ struct myWindow {
     constexpr inline static type::int_u modeHeight = 600;
 };
 
+//Enums {{{1
+enum class Player {
+    WHITE, BLACK
+};
 
 #endif //CS2013_PROJECT_DEFINITIONS_H
