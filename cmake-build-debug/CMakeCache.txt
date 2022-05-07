@@ -213,6 +213,24 @@ CS2013_Project_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 CS2013_Project_SOURCE_DIR:STATIC=/Users/juandiegocastropadilla/Desktop/CS2013-Project
 
+//The directory containing a CMake configuration file for SDL2.
+SDL2_DIR:PATH=/usr/local/lib/cmake/SDL2
+
+//Path to a library.
+SDL2_LIBRARY:FILEPATH=SDL2_LIBRARY-NOTFOUND
+
+//The directory containing a CMake configuration file for SDL2_LIBRARY.
+SDL2_LIBRARY_DIR:PATH=SDL2_LIBRARY_DIR-NOTFOUND
+
+//Path to a library.
+SDLMAIN_LIBRARY:FILEPATH=SDLMAIN_LIBRARY-NOTFOUND
+
+//The directory containing a CMake configuration file for SDLTTF.
+SDLTTF_DIR:PATH=SDLTTF_DIR-NOTFOUND
+
+//Path to a file.
+SDL_INCLUDE_DIR:PATH=SDL_INCLUDE_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for SFML.
 SFML_DIR:PATH=/usr/local/lib/cmake/SFML
 
@@ -355,4 +373,6 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Path to a library.
+SDL_LIBRARY_TEMP:INTERNAL=SDL_LIBRARY_TEMP-NOTFOUND
 

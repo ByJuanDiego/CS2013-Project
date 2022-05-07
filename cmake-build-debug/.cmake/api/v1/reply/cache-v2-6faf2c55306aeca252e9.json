@@ -1114,6 +1114,90 @@
 			"value" : "/Users/juandiegocastropadilla/Desktop/CS2013-Project"
 		},
 		{
+			"name" : "SDL2_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for SDL2."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/local/lib/cmake/SDL2"
+		},
+		{
+			"name" : "SDL2_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "SDL2_LIBRARY-NOTFOUND"
+		},
+		{
+			"name" : "SDL2_LIBRARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for SDL2_LIBRARY."
+				}
+			],
+			"type" : "PATH",
+			"value" : "SDL2_LIBRARY_DIR-NOTFOUND"
+		},
+		{
+			"name" : "SDLMAIN_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "SDLMAIN_LIBRARY-NOTFOUND"
+		},
+		{
+			"name" : "SDLTTF_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for SDLTTF."
+				}
+			],
+			"type" : "PATH",
+			"value" : "SDLTTF_DIR-NOTFOUND"
+		},
+		{
+			"name" : "SDL_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "SDL_INCLUDE_DIR-NOTFOUND"
+		},
+		{
+			"name" : "SDL_LIBRARY_TEMP",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "SDL_LIBRARY_TEMP-NOTFOUND"
+		},
+		{
 			"name" : "SFML_DIR",
 			"properties" : 
 			[
