@@ -23,16 +23,16 @@
 #include <SFML/Graphics.hpp>
 
 //Namespaces {{{1
-namespace Type{
+namespace type{
     typedef const char* str;
     typedef unsigned int int_u;
 }
 
 //Structs {{{1
 struct myWindow {
-    constexpr inline static Type::str title = "SFML Prog3 Project";
-    constexpr inline static Type::int_u modeWidth = 600;
-    constexpr inline static Type::int_u modeHeight = 600;
+    constexpr inline static type::str title = "SFML Prog3 Project";
+    constexpr inline static type::int_u modeWidth = 600;
+    constexpr inline static type::int_u modeHeight = 600;
 };
 
 
