@@ -2,7 +2,7 @@
 // Created by Juan Diego Castro Padilla on 6/05/22.
 //
 
-#include "AI.h"
+#include "../include/AI.h"
 
 // helper for next()
 // all  empty spots on board stored on  permutation

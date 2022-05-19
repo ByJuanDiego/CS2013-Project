@@ -2,7 +2,7 @@
 // Created by Juan Diego Castro Padilla on 6/05/22.
 //
 
-#include "Game.h"
+#include "../include/Game.h"
 
 // play function to handle subfunctions also lots of robot overlord stuff
 void Game::play(){

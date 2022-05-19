@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.21)
 project(CS2013_Project)
 
 set(CMAKE_CXX_STANDARD 17)
-set(SOURCE_FILES src/main.cpp src/definitions.h src/Board.cpp src/Board.h src/AI.cpp src/AI.h src/Game.cpp src/Game.h)
+set(SOURCE_FILES main.cpp include/definitions.h src/Board.cpp include/Board.h src/AI.cpp include/AI.h src/Game.cpp include/Game.h)
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 
 if (APPLE OR UNIX)

@@ -25,6 +25,9 @@
 
 //Third-party Libraries {{{1
 #include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
+#include <SFML/System.hpp>
+#include <SFML/OpenGL.hpp>
 
 //Namespaces {{{1
 namespace type {
@@ -35,8 +38,8 @@ namespace type {
 //Structs {{{1
 struct myWindow {
     constexpr inline static type::str title = "SFML Prog3 Project";
-    constexpr inline static type::int_u modeWidth = 600;
-    constexpr inline static type::int_u modeHeight = 600;
+    constexpr inline static type::int_u modeWidth = 1263;
+    constexpr inline static type::int_u modeHeight = 960;
 };
 
 //Enums {{{1
